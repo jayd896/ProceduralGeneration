@@ -248,7 +248,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawnpoint Rooms 5R
   m_TagString: SpawnPoint
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -260,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002048960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.35, y: -4.7799997, z: 0}
+  m_LocalPosition: {x: 7.3, y: -4.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1768652113}
@@ -278,7 +278,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawnpoint Rooms 3L
   m_TagString: SpawnPoint
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -290,7 +290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505247578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.65, y: -3.78, z: 0}
+  m_LocalPosition: {x: -3.74, y: -4.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1768652113}
@@ -402,6 +402,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 222781040428818904, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 222781040428818904, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417414808539309871, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3417414808539309871, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
       propertyPath: m_Name
       value: Spawnpoint Rooms 2U
@@ -410,6 +422,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: SpawnPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 5546418254077020676, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 5546418254077020676, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
       propertyPath: m_Name
       value: SpawnPoint Room 1
@@ -485,7 +501,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawnpoint Rooms 4D
   m_TagString: SpawnPoint
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -497,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892584322}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.35, y: -11.78, z: 0}
+  m_LocalPosition: {x: 2.25, y: -11.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1768652113}
