@@ -246,7 +246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1002048961}
   m_Layer: 0
-  m_Name: Spawn Spoint Rooms 1 (3)
+  m_Name: Spawnpoint Rooms 5R
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505247579}
   m_Layer: 0
-  m_Name: Spawn Spoint Rooms 1 (1)
+  m_Name: Spawnpoint Rooms 3L
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -404,7 +404,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3417414808539309871, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
       propertyPath: m_Name
-      value: Spawnpoint Rooms 2
+      value: Spawnpoint Rooms 2U
       objectReference: {fileID: 0}
     - target: {fileID: 3417414808539309871, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
       propertyPath: m_TagString
@@ -483,7 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892584323}
   m_Layer: 0
-  m_Name: Spawn Spoint Rooms 1 (2)
+  m_Name: Spawnpoint Rooms 4D
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
