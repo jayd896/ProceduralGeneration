@@ -5,10 +5,14 @@ using UnityEngine;
 public class RoomSpawning : MonoBehaviour
 {
     public int DoorDirection;
+
+    private RoomCreation Rooms;
+   
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Rooms = GameObject.FindGameObjectsWithTag("Rooms");
     }
 
     // Update is called once per frame
