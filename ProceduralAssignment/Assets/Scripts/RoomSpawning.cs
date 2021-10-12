@@ -6,13 +6,13 @@ public class RoomSpawning : MonoBehaviour
 {
     public int DoorDirection;
 
-    private RoomCreation Rooms;
+    private RoomCreation RoomTemplate;
    
     
     // Start is called before the first frame update
     void Start()
     {
-        //Rooms = GameObject.FindGameObjectsWithTag("Rooms");
+        RoomTemplate = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomCreation>();
     }
 
     // Update is called once per frame
