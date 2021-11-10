@@ -88,7 +88,7 @@ public class RoomSpawning : MonoBehaviour
 
             case 3:
                 //Spawn Room with Down exit.
-                if (RoomTemplate.BottomExitRooms.Length>0)
+                if (RoomTemplate.BottomExitRooms.Length > 0)
                 {
                     RandRoom = Random.Range(0, RoomTemplate.BottomExitRooms.Length - 1);
                     Instantiate(RoomTemplate.BottomExitRooms[RandRoom], transform.position, transform.rotation);
@@ -105,17 +105,17 @@ public class RoomSpawning : MonoBehaviour
                 break;
         }
         HasBeenSpawned = true;
+        print("It is working");
     }
     
     
     private void OnTriggerEnter2D(Collider2D other)
     {
         // If the spawnpoint tags collide with eachother HasBeenSpawned is true.
-        if (other.CompareTag("SpawnPoint"))
+        if (other.CompareTag("SpawnPoint") && other.GetComponent<RoomSpawning>().HasBeenSpawned==true)
         {
             Destroy(gameObject);
         }
         
-
     }
 }

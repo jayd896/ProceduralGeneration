@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1370833498609198432}
   m_Layer: 0
   m_Name: 'Left,Right,Top '
-  m_TagString: Rooms
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +145,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7593950925787475930}
   - component: {fileID: 5162262084417754787}
-  - component: {fileID: 2572211583926345245}
   - component: {fileID: 6089128854689316691}
   - component: {fileID: 3959613307966147686}
   m_Layer: 0
@@ -163,7 +162,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5173986751112418368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5050001, y: -4.517, z: -1.1507742}
+  m_LocalPosition: {x: -0.5050001, y: -4.517, z: -1.1507742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2820010173626018165}
@@ -183,29 +182,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 2
   HasBeenSpawned: 0
---- !u!114 &2572211583926345245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5173986751112418368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms: []
-  LeftExitRooms:
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 5179968865802725034, guid: e31c3aaf3008671498c26d7ddf5ed3ff, type: 3}
-  - {fileID: 3185790649816548784, guid: e94b27cad5a90aa44a813cbe8d351e22, type: 3}
-  - {fileID: 5816443710203753276, guid: 2446df0d0bf6b184bbe27cd9e128fc68, type: 3}
-  - {fileID: 3759599256476284294, guid: f58d2e2f59f9a994693563c383a45f5a, type: 3}
-  - {fileID: 754057078249482253}
-  - {fileID: 8598724473254476217, guid: eb6d8bfdfc9fcf149a76a416405e7d52, type: 3}
-  TopExitRooms: []
-  BottomExitRooms: []
 --- !u!61 &6089128854689316691
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -263,7 +239,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3931567019610185949}
   - component: {fileID: 8133289416483917893}
-  - component: {fileID: 1723152179832619183}
   - component: {fileID: 3311853964800137633}
   - component: {fileID: 1603125883666415727}
   m_Layer: 0
@@ -301,28 +276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 3
   HasBeenSpawned: 0
---- !u!114 &1723152179832619183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5174979244042528010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms: []
-  LeftExitRooms: []
-  TopExitRooms:
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 5816443710203753276, guid: 2446df0d0bf6b184bbe27cd9e128fc68, type: 3}
-  - {fileID: 754057078249482253}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  - {fileID: 8828393865188050776, guid: adad3436b6a93784bad2b87415af3d9d, type: 3}
-  - {fileID: 2001326662033211880, guid: 40e33233b64a4df438f088c99084f025, type: 3}
-  BottomExitRooms: []
 --- !u!61 &3311853964800137633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -380,7 +333,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6207826718539485020}
   - component: {fileID: 478575563142097954}
-  - component: {fileID: 292166599217207115}
   - component: {fileID: 9115191314258783397}
   - component: {fileID: 5883700214770771548}
   m_Layer: 0
@@ -398,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5628129757381226566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.495001, y: -4.517, z: -1.1507742}
+  m_LocalPosition: {x: 9.495001, y: -4.517, z: -1.1507742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2820010173626018165}
@@ -418,29 +370,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 1
   HasBeenSpawned: 0
---- !u!114 &292166599217207115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628129757381226566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms:
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 3759599256476284294, guid: f58d2e2f59f9a994693563c383a45f5a, type: 3}
-  - {fileID: 8553660142391790802, guid: e7d07879aa942fa468589763214089ca, type: 3}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  - {fileID: 461408330465346323, guid: 82e9ce6f92d3f884eac699ca46b19b19, type: 3}
-  - {fileID: 3185790649816548784, guid: e94b27cad5a90aa44a813cbe8d351e22, type: 3}
-  - {fileID: 754057078249482253}
-  LeftExitRooms: []
-  TopExitRooms: []
-  BottomExitRooms: []
 --- !u!61 &9115191314258783397
 BoxCollider2D:
   m_ObjectHideFlags: 0

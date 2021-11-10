@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4794210808112138251}
   - component: {fileID: 4794210808112138247}
-  - component: {fileID: 4794210808112138246}
   - component: {fileID: 4794210808112138249}
   - component: {fileID: 4794210808112138248}
   m_Layer: 0
@@ -28,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4794210808112138250}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5170002, y: -4.4969997, z: -1.1507742}
+  m_LocalPosition: {x: -0.5170002, y: -4.4969997, z: -1.1507742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6485338479542728897}
@@ -48,29 +47,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 2
   HasBeenSpawned: 0
---- !u!114 &4794210808112138246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4794210808112138250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms:
-  - {fileID: 8553660142391790802, guid: e7d07879aa942fa468589763214089ca, type: 3}
-  - {fileID: 3759599256476284294, guid: f58d2e2f59f9a994693563c383a45f5a, type: 3}
-  - {fileID: 3185790649816548784, guid: e94b27cad5a90aa44a813cbe8d351e22, type: 3}
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 754057078249482253, guid: d1d6e21aea4110e4484e19e5207f83c1, type: 3}
-  - {fileID: 461408330465346323, guid: 82e9ce6f92d3f884eac699ca46b19b19, type: 3}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  LeftExitRooms: []
-  TopExitRooms: []
-  BottomExitRooms: []
 --- !u!61 &4794210808112138249
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -131,7 +107,7 @@ GameObject:
   - component: {fileID: 7936487678452249812}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Rooms
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

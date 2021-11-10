@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6814558776165821383}
   m_Layer: 0
   m_Name: Left, Bottom
-  m_TagString: Rooms
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,7 +148,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8232097642778557693}
   - component: {fileID: 8232097642778551041}
-  - component: {fileID: 8232097642778557694}
   - component: {fileID: 8232097642778557695}
   - component: {fileID: 8232097642778557692}
   m_Layer: 0
@@ -186,28 +185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 4
   HasBeenSpawned: 0
---- !u!114 &8232097642778557694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8232097642778557690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms: []
-  LeftExitRooms: []
-  TopExitRooms:
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 5816443710203753276, guid: 2446df0d0bf6b184bbe27cd9e128fc68, type: 3}
-  - {fileID: 754057078249482253, guid: d1d6e21aea4110e4484e19e5207f83c1, type: 3}
-  - {fileID: 2001326662033211880, guid: 40e33233b64a4df438f088c99084f025, type: 3}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  - {fileID: 8828393865188050776, guid: adad3436b6a93784bad2b87415af3d9d, type: 3}
-  BottomExitRooms: []
 --- !u!61 &8232097642778557695
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -265,7 +242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8232097643098796264}
   - component: {fileID: 8232097643098796268}
-  - component: {fileID: 8232097643098796269}
   - component: {fileID: 8232097643098796266}
   - component: {fileID: 8232097643098796267}
   m_Layer: 0
@@ -303,35 +279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorDirection: 2
   HasBeenSpawned: 0
---- !u!114 &8232097643098796269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8232097643098796265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c4ec6d58ef1dc44a37a6012619fb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RightExitRooms:
-  - {fileID: 8553660142391790802, guid: e7d07879aa942fa468589763214089ca, type: 3}
-  - {fileID: 3759599256476284294, guid: f58d2e2f59f9a994693563c383a45f5a, type: 3}
-  - {fileID: 3185790649816548784, guid: e94b27cad5a90aa44a813cbe8d351e22, type: 3}
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 754057078249482253, guid: d1d6e21aea4110e4484e19e5207f83c1, type: 3}
-  - {fileID: 461408330465346323, guid: 82e9ce6f92d3f884eac699ca46b19b19, type: 3}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  LeftExitRooms: []
-  TopExitRooms:
-  - {fileID: 8538174832398692293, guid: b94ff2b07bc41f642a2aca3420ab8e57, type: 3}
-  - {fileID: 5816443710203753276, guid: 2446df0d0bf6b184bbe27cd9e128fc68, type: 3}
-  - {fileID: 754057078249482253, guid: d1d6e21aea4110e4484e19e5207f83c1, type: 3}
-  - {fileID: 2327699253179801212, guid: f489dc38e4814c94a91329e9b3d1ec5a, type: 3}
-  - {fileID: 8828393865188050776, guid: adad3436b6a93784bad2b87415af3d9d, type: 3}
-  - {fileID: 2001326662033211880, guid: 40e33233b64a4df438f088c99084f025, type: 3}
-  BottomExitRooms: []
 --- !u!61 &8232097643098796266
 BoxCollider2D:
   m_ObjectHideFlags: 0
