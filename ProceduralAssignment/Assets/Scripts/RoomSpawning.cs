@@ -15,8 +15,9 @@ public class RoomSpawning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        RoomTemplate = GetComponent<RoomCreation>();
+        RoomTemplate = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomCreation>();
         RoomSpawn();
+        
         //Spawningrooms();
         
         
