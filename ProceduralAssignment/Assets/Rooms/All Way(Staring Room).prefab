@@ -2274,7 +2274,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomSpawnPoint  (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4540085584284555522, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
 --- !u!4 &1227881580894631231 stripped
 Transform:
@@ -2352,7 +2353,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomSpawnPoint  (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4540085584284555522, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
 --- !u!4 &140328561546140612 stripped
 Transform:
@@ -2430,7 +2432,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'RoomSpawnPoint '
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4540085584284555522, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
 --- !u!4 &6269738384895486522 stripped
 Transform:
@@ -2508,7 +2511,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomSpawnPoint  (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4540085584284555522, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe5b17494073fc41b8bd5ab0c671398, type: 3}
 --- !u!4 &4848000142632855113 stripped
 Transform:
