@@ -11,12 +11,20 @@ public class RoomSpawning : MonoBehaviour
     private int RandRoom;
     public bool HasBeenSpawned = false;
    
-    
+    public static int CurrentRoomSpawn=0;
+    public static int MaxNumberOfRooms = 3;
+
     // Start is called before the first frame update
     void Start()
     {
         RoomTemplate = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomCreation>();
-        RoomSpawn();
+
+        if (RoomSpawning.CurrentRoomSpawn<RoomSpawning.MaxNumberOfRooms)
+        {
+            RoomSpawn();
+            RoomSpawning.CurrentRoomSpawn++;
+        }
+        
         
         //Spawningrooms();
         
@@ -106,7 +114,7 @@ public class RoomSpawning : MonoBehaviour
                 break;
         }
         HasBeenSpawned = true;
-        print("It is working");
+        print(gameObject.name);
     }
     
     
@@ -116,6 +124,7 @@ public class RoomSpawning : MonoBehaviour
         if (other.CompareTag("SpawnPoint") && other.GetComponent<RoomSpawning>().HasBeenSpawned==true)
         {
             Destroy(gameObject);
+            Debug.Log("Spawn Points are being destoryed!");
         }
         
     }
