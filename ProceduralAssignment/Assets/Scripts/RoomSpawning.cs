@@ -83,7 +83,7 @@ public class RoomSpawning : MonoBehaviour
                 if (RoomTemplate.LeftExitRooms.Length > 0)
                 {
                     RandRoom = Random.Range(0, RoomTemplate.LeftExitRooms.Length - 1);
-                    Instantiate(RoomTemplate.LeftExitRooms[RandRoom], transform.position, transform.rotation);
+                    Instantiate(RoomTemplate.LeftExitRooms[RandRoom], new Vector2(-4,2), transform.rotation);
                 }
                break;
 
@@ -91,7 +91,7 @@ public class RoomSpawning : MonoBehaviour
                 if (RoomTemplate.RightExitRooms.Length > 0)
                 {
                     RandRoom = Random.Range(0, RoomTemplate.RightExitRooms.Length - 1);
-                    Instantiate(RoomTemplate.RightExitRooms[RandRoom], transform.position, transform.rotation);
+                    Instantiate(RoomTemplate.RightExitRooms[RandRoom], new Vector2(-24, 2), transform.rotation);
                 }
                 break;
 
@@ -100,7 +100,7 @@ public class RoomSpawning : MonoBehaviour
                 if (RoomTemplate.BottomExitRooms.Length > 0)
                 {
                     RandRoom = Random.Range(0, RoomTemplate.BottomExitRooms.Length - 1);
-                    Instantiate(RoomTemplate.BottomExitRooms[RandRoom], transform.position, transform.rotation);
+                    Instantiate(RoomTemplate.BottomExitRooms[RandRoom], new Vector2(0, -20), transform.rotation);
                 }
                break;
 

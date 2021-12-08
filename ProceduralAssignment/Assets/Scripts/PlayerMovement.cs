@@ -9,43 +9,33 @@ public class PlayerMovement : MonoBehaviour
     float finalmovemnetY;
 
     public float M_Speed;
-    public float M_DecerlerationTime;
-    public float M_AccelerationTime;
+
+    public Rigidbody2D Rb;
+    private Vector2 MoveDirection;
+
+    //public float M_DecerlerationTime;
+    //public float M_AccelerationTime;
     
-    bool HorizontalAcclerationActive = false;
-    bool VerticalAccelerationActive = false;
+    //bool HorizontalAcclerationActive = false;
+    //bool VerticalAccelerationActive = false;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        Rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Vector2 MoveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        MoveDirection = MoveInput * M_Speed;
     }
 
-    public void HorizontalMovement()
+    private void FixedUpdate()
     {
-        //a=v/t
-        if (HorizontalAcclerationActive==true)
-        {
-            finalmovementX =+ M_Speed / M_AccelerationTime;
-        }
-        if (HorizontalAcclerationActive == false)
-        {
-            finalmovementX = -M_Speed / M_DecerlerationTime;
-        }
+        Rb.MovePosition(Rb.position + MoveDirection * Time.deltaTime);
     }
 
-    public void VerticalMovement()
-    {
-        if (VerticalAccelerationActive == true)
-        {
-
-        }
-    }
 
 }
